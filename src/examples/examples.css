@@ -35,7 +35,7 @@ pre {
     .counter,.update{
         width: 70%;
         height: auto;
-        font-size: 5px;
+        font-size: 10px;
     }
     .update{
         width: 90%;
