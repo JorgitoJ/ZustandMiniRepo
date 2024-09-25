@@ -32,13 +32,10 @@ pre {
         width: 50%;
         margin: 20px;
     }
-    .counter{
+    .counter,.update{
         width: 70%;
         height: auto;
         font-size: 10px;
     }
-    .update{
-        width: 90%;
-        height: auto;
-    }
+    
 }
