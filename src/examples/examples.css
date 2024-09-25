@@ -37,5 +37,7 @@ pre {
         height: auto;
         font-size: 10px;
     }
-    
+    .update{
+        width: 90%;
+    }
 }
