@@ -55,42 +55,42 @@ export const Examples = () => {
         updateLastName: (lastName) => set({ lastName }),
         })
 
-        export const Update = () =
-            const firstName = usePersonStore(state => state.firstName);
-            const lastName = usePersonStore(state => state.lastName);
-            const updateFirstName = usePersonStore(state => state.updateFirstName);
-            const updateLastName = usePersonStore(state => state.updateLastNam
-                const handleFirstNameChange = (event) => {
-                    updateFirstName(event.target.value);
-            };
+export const Update = () =
+    const firstName = usePersonStore(state => state.firstName);
+    const lastName = usePersonStore(state => state.lastName);
+    const updateFirstName = usePersonStore(state => state.updateFirstName);
+    const updateLastName = usePersonStore(state => state.updateLastNam
+    const handleFirstNameChange = (event) => {
+        updateFirstName(event.target.value);
+        };
+
+    const handleLastNameChange = (event) => {
+            updateLastName(event.target.value);
+
+    return (
+
+        <div className='input
+
+            <input 
+            type="text"
+            value={firstName}
+            onChange={handleFirstNameChange}
+            placeholder="Primer nombre"
+            />
+
+            <input 
+            type="text"
+            value={lastName}
+            onChange={handleLastNameChange}
+            placeholder="Apellido"
+            />
+
+            <p className='text'>Nombre completo: {firstName} {lastName}</p>
+    </div>
             
-            const handleLastNameChange = (event) => {
-                    updateLastName(event.target.value);
-            
-                return (
-                
-                    <div className='input
-            
-                    <input 
-                    type="text"
-                    value={firstName}
-                    onChange={handleFirstNameChange}
-                    placeholder="Primer nombre"
-                    />
-            
-                    <input 
-                    type="text"
-                    value={lastName}
-                    onChange={handleLastNameChange}
-                    placeholder="Apellido"
-                    />
-            
-                    <p className='text'>Nombre completo: {firstName} {lastName}</p>
-            </div>
-                    
-                    )
-                }
-            
+            )
+        }
+    
             `}</pre>
             <Update/>
             <br />
