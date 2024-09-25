@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    height: 70px;
+    background-color: rgb(14, 33, 49);
+}
+.titulo{
+    margin: 10px; 
+    color: rgb(247, 247, 247);   
+}
+
+button{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.btn{
+    border: 2px solid rgb(11, 10, 24);
+    background: none;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn:hover{
+    background-color: rgb(11, 10, 24); ;
+}

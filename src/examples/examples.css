@@ -1,0 +1,43 @@
+.name{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+pre {
+    background-color: #0e0c0cfb;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    width: 20%;
+    margin: 20px;
+}
+.pre-wrap {
+    white-space: pre-wrap;
+}
+.counter{
+    width: 35%;
+    height: auto;
+}
+.update{
+    width: 50%;
+    height: auto;
+}
+
+@media (max-width:768px){
+    pre{
+        background-color: #0e0c0cfb;
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+        width: 50%;
+        margin: 20px;
+    }
+    .counter{
+        width: 70%;
+        height: auto;
+    }
+    .update{
+        width: 90%;
+        height: auto;
+    }
+}

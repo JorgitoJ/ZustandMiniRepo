@@ -1,0 +1,35 @@
+.inicio{
+ 
+    width: 30%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 20px;
+    font-size: 40px;
+}
+
+.encabezado{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.cuerpo{
+    display: block;
+    color: white;
+    margin: 20px;
+    
+}
+.next{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-size: 20px;
+}
+
+hr{
+    width: 50%;
+}
