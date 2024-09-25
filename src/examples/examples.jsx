@@ -46,7 +46,7 @@ export const Examples = () => {
             <hr />
             <h2 className='name'>Mostrando el Update</h2>
             <pre className='update'>{`
-    import { create } from 'zustand';
+import { create } from 'zustand';
     
     const usePersonStore = create((set) => ({
         firstName: '',
@@ -55,13 +55,13 @@ export const Examples = () => {
         updateLastName: (lastName) => set({ lastName }),
         })
 
-export const Update = () =
-    const firstName = usePersonStore(state => state.firstName);
-    const lastName = usePersonStore(state => state.lastName);
-    const updateFirstName = usePersonStore(state => state.updateFirstName);
-    const updateLastName = usePersonStore(state => state.updateLastNam
-    const handleFirstNameChange = (event) => {
-        updateFirstName(event.target.value);
+    export const Update = () =
+        const firstName = usePersonStore(state => state.firstName);
+        const lastName = usePersonStore(state => state.lastName);
+        const updateFirstName = usePersonStore(state => state.updateFirstName);
+        const updateLastName = usePersonStore(state => state.updateLastNam
+        const handleFirstNameChange = (event) => {
+            updateFirstName(event.target.value);
         };
 
     const handleLastNameChange = (event) => {
